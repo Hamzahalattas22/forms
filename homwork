@@ -1,0 +1,88 @@
+<doctype html>
+    <head>
+        <title>Forms hw</title>
+        <meta charset="utf-8"/>
+        <style></style>
+        <script></script>
+        <link rel="" href="">
+    </head>
+
+    <body>
+            <h1 style="text-align:left ;">Registertion form</h1>
+
+            <img src="welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-illustration-r-welcome-125370796.jpg" alt="welcome logo" style="width: 300px;"/>
+
+                <p style="color: brown;"><b>We are Happy that you will be one of our members , you are welcome to join by fill the form below:</b></p>
+                <form action="" id="registerform"  name="registerform"  method="post"  enctype="multipart/form-data">
+                   
+                    <label for="username" id="username">Username :</label>
+                    <input type="text" id="username" name="username" placeholder="enter your username" required autocomplete="off" disabled>
+
+                     <label for="Paswword" id="password">Password :</label>
+                    <input type="password" id="password" name="password">
+            
+                    <label for="age" id="age" name="age">Age :</label>
+                    <input type="number" id="age" name="age" value="20" readonly>
+
+                    <br><br>
+                    <textarea for="content" id="content" name="content" rows="5" cols="75"></textarea>
+
+                    <br><br>
+
+                    <label for="age" id="hobbies" name="age">Hobbies : </label> 
+                    <input type="checkbox" id="category" name="category" value="art">Art
+                    <input type="checkbox" id="category" name="category" value="sports">Sports
+                    <input type="checkbox" id="category" name="category" value="Reading news"> Reading news
+                    <input type="checkbox" id="category" name="category" value="tech">Technology
+
+                    <br><br>
+                    <label id="gender" name="gender">Gender : </label>
+                    <input type="radio" name="gender" id="male" value="male">Male 
+                    <input type="radio" name="gender" id="female" value="female">Famle 
+        
+        
+                    <br><br>
+                    <label for="country" id="country" name="conutry">Country : </label>
+                    <select name="country" id="conutry">
+                        <option value="eg">Egypt</option>
+                        <option value="sa" selected>Saudi Arabia</option>
+                        <option value="om">Oman</option>
+                    </select>
+                    
+                    <br><br>
+                    <label for="language" id="language" name="age">Language : </label> 
+                    <input type="checkbox" id="category" name="category" value="arabic">arabic
+                    <input type="checkbox" id="category" name="category" value="English">English
+
+                    <br><br>
+                    <label id="upload" name="upload">Upload your file : </label>
+                    <input type="file" id="file" name="file">
+        
+                    <br><br>
+                    <label id="date" name="date">Date : </label>
+                    <input type="date" id="date" name="date">
+        
+        
+                    <br><br>
+                    <label id="color" name="color">Choose your color : </label>
+                    <input type="color" id="color" name="color">
+        
+                    <br><br>
+                    <label id="range" name="range">Range your writing by English : </label>
+                    <input type="range" id="range" name="range" min="0" max="10000" >
+        
+        
+                    <br><br>
+                    <label id="time" name="time">Time : </label>
+                    <input type="time" id="time" name="time">
+        
+        
+        
+                    <br><br>
+                    <button for="submit">Submit</button>
+                    <button for="reset">Reset</button>
+                </form>
+
+         
+    </body>
+</html>
