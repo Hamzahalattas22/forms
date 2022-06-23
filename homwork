@@ -8,11 +8,9 @@
     </head>
 
     <body>
-            <h1 style="text-align:left ;">Registertion form</h1>
+            <h1 style="text-align:left ;"> Forms</h1>
 
-            <img src="welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-illustration-r-welcome-125370796.jpg" alt="welcome logo" style="width: 300px;"/>
-
-                <p style="color: brown;"><b>We are Happy that you will be one of our members , you are welcome to join by fill the form below:</b></p>
+          
                 <form action="" id="registerform"  name="registerform"  method="post"  enctype="multipart/form-data">
                    
                     <label for="username" id="username">Username :</label>
@@ -23,13 +21,22 @@
             
                     <label for="age" id="age" name="age">Age :</label>
                     <input type="number" id="age" name="age" value="20" readonly>
+                    
+                    <br><br>
+                    <label id="email" name="email">E-mail :</label>
+                    <input type="email" id="email" name="email">
+
+                    
+                    <label id="website" name="website">Website :</label>
+                    <input type="url" id="website" name="website">
+
 
                     <br><br>
                     <textarea for="content" id="content" name="content" rows="5" cols="75"></textarea>
 
                     <br><br>
 
-                    <label for="age" id="hobbies" name="age">Hobbies : </label> 
+                    <label for="hobbies" id="hobbies" name="age">Hobbies : </label> 
                     <input type="checkbox" id="category" name="category" value="art">Art
                     <input type="checkbox" id="category" name="category" value="sports">Sports
                     <input type="checkbox" id="category" name="category" value="Reading news"> Reading news
@@ -55,28 +62,32 @@
                     <input type="checkbox" id="category" name="category" value="English">English
 
                     <br><br>
-                    <label id="upload" name="upload">Upload your file : </label>
+                    <label id="upload" name="upload">Upload your file/s : </label>
                     <input type="file" id="file" name="file">
         
-                    <br><br>
-                    <label id="date" name="date">Date : </label>
-                    <input type="date" id="date" name="date">
-        
-        
+            
                     <br><br>
                     <label id="color" name="color">Choose your color : </label>
                     <input type="color" id="color" name="color">
         
                     <br><br>
-                    <label id="range" name="range">Range your writing by English : </label>
+                    <label id="range" name="range">Range : </label>
                     <input type="range" id="range" name="range" min="0" max="10000" >
         
-        
+
+                    <br><br>
+                    <label id="date" name="date">Date : </label>
+                    <input type="date" id="date" name="date">
+
+
                     <br><br>
                     <label id="time" name="time">Time : </label>
                     <input type="time" id="time" name="time">
-        
-        
+
+                   
+                    <br><br>
+                    <label id="localtime" name="localtime">Localtime : </label>
+                    <input type="datetime-local" id="localtime" name="localtime">
         
                     <br><br>
                     <button for="submit">Submit</button>
